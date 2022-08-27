@@ -18,11 +18,11 @@ export const SearchPanel = (params,setParams) => {
         {/* select 选择框 */}
         <select>
             {/* 列表渲染 */}
-            {
+            {/* {
                 users.map(item => {
                     return <option key={item.id} value={item.id}>{item.name}</option>
                 })
-            }
+            } */}
             
         </select>
         
