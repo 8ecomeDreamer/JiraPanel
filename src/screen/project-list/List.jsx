@@ -10,7 +10,7 @@ export const  List = (props) => {
         </thead>
         <tbody>
             {
-                Lists.map(item => {
+                Lists.map((item) => {
                     return  (
                         <tr key={item.id}>
                             <td>{item.jobGrade}</td>
