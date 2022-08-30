@@ -4,7 +4,10 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ProjectListScreen } from "screen/project-list";
-import { Login } from "screen/Login";
+// 登录界面
+import { Login } from "authenticationProcess/Login";
+// 注册界面
+import { Register } from "authenticationProcess/Register";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -13,7 +16,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <ProjectListScreen></ProjectListScreen> */}
-    <Login></Login>
+    {/* <Login></Login> */}
+    <Register></Register>
   </React.StrictMode>
 );
 

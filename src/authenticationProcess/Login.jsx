@@ -5,6 +5,8 @@ export const Login = ()=>{
 
     const handleSubmit = (event)=>{
         event.preventDefault()
+        // console.log(event)
+        // 获取节点
         const username=event.target[0].value
         const password=event.target[1].value
         // console.log(username,password)

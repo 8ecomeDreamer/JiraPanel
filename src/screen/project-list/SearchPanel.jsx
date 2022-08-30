@@ -2,7 +2,7 @@ import userEvent from "@testing-library/user-event"
 import { useEffect } from "react"
 
 // 引入自定义hooks
-import { useDebounce } from "../../customHooks"
+// import { useDebounce } from "../../customHooks"
 
 
 // interface dbUser{
@@ -23,6 +23,7 @@ import { useDebounce } from "../../customHooks"
 //     }];
 // }
 
+
 export const SearchPanel = (props) => {
     // 解构参数
     const {Lists,setLists,dbUser}=props
@@ -39,7 +40,7 @@ export const SearchPanel = (props) => {
                console.log(event.target.value)
            }}></input>
 
-           <select  > 
+           <select> 
            {/* 第一个option为默认值 */}
                <option value={''}>负责人</option>
                {
