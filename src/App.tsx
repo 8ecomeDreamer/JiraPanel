@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+// 引入antd
+import { Button } from "antd";
+import "./App.css";
 
 function App() {
   return (
